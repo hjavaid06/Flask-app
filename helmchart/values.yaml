@@ -16,10 +16,10 @@ resources:
 
 
 #Database values.
-db:
+database:
+  rootpassword: YWRtaW4xMjM=
   username: admin
   password: admin
+  dbname: master_db
   host: mysql
-  db_name: TEST
-  #db-root-credentials
-  rootpassword: YWRtaW4xMjM=
+  

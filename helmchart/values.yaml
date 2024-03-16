@@ -17,7 +17,7 @@ resources:
 
 #Database values.
 database:
-  rootpassword: YWRtaW4xMjM=
+  rootpassword: rooted
   username: admin
   password: admin
   dbname: master_db

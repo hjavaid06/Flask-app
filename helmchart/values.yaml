@@ -1,0 +1,26 @@
+# App values.
+replicaCount: 1
+
+image:
+  repository: vgeorgework/flaskapp
+  # Overrides the image tag whose default is the chart appVersion.
+  tag: "latest"
+
+resources: 
+  limits:
+    cpu: 500m
+    memory: 512Mi
+  requests:
+    cpu: 150m
+    memory: 256Mi
+
+
+#Database values.
+db:
+  mysqlreplicaCount: 1
+  username: admin
+  password: admin
+  host: mysql
+  db_name: TEST
+  #db-root-credentials
+  rootpassword: YWRtaW4xMjM=

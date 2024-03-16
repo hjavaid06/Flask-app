@@ -17,7 +17,6 @@ resources:
 
 #Database values.
 db:
-  mysqlreplicaCount: 1
   username: admin
   password: admin
   host: mysql
